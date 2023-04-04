@@ -9,12 +9,12 @@ const About = () => {
         <h3>INTRODUCTION</h3>
         <h1>Overview.</h1>
         <p>
-        As a full-stack developer, I'm comfortable working with both frontend and backend technologies
+        As a full-stack developer, I am comfortable working with both frontend and backend technologies
         with popular frameworks like React, Angular, and NextJs and I have a strong foundation in database management 
         with systems like MongoDB and MySQL. 
-        I'm a quick learner and collaborate closely with clients to create efficient,
+        I am a quick learner and collaborate closely with clients to create efficient,
         scalable and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your ideas to life!
+        Let`s work together to bring your ideas to life!
         </p>
         <Link href="#contact" >
         <button className='hire_now'>Hire now</button>
