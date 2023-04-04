@@ -1,0 +1,40 @@
+
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+}
+
+body{
+  background-color: #080210;
+  margin-top: 100px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.row{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.header{
+  padding: 20px;
+}
+

@@ -1,0 +1,65 @@
+.Navbar{
+    padding: 5px  20px 5px 0;
+    background-color: #050816;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.Navbar .Container{
+    max-width: 1380px !important;
+}
+
+
+
+.logo-img{
+    width: 150px;
+    height: auto;
+}
+
+
+
+.sections{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #a197c2;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+.logo-img:hover,
+.git:hover,
+.section:hover{
+    cursor: pointer;
+    transform: scale(1,1.1);
+    color: #fff;
+}
+
+.sectionsDesktop{
+    display: block;
+}
+
+.navMenuBtn{
+    display: none;
+    margin-left: 10px;
+    width: fit-content;
+    background: transparent;
+    border: none;
+}
+
+@media (max-width:900px) {
+    .sectionsDesktop{
+        display: none !important; 
+    }
+
+    .navMenuBtn{
+        display: block;
+    }
+}
