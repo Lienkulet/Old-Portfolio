@@ -18,7 +18,7 @@ const Work = ({ projects }) => {
       </div>
       <div className='projects'>
        
-       {projects?.map((project) =>  <Project key={project._id} project={project} /> )}
+       {projects?.map((project) =>  <Project key={project.slug} project={project} /> )}
 
       </div>
     </section >

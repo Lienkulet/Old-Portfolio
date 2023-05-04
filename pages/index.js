@@ -19,12 +19,18 @@ export default function Home({ technologies, projects }) {
 }
 
 export const getServerSideProps = async () => {
-  const projectsQuery = `*[_type == "project"]`;
+  const projectsQuery = `*[_type == "project"]{
+    image, name, slug, github, liveDemo, details, 
+    Technologies[]-> {
+    name
+  }
+  }`;
   const projects = await client.fetch(projectsQuery);
 
   const technologiesQuery = `*[_type == "technology"]`;
   const technologies = await client.fetch(technologiesQuery);
 
+  
 
   return {
     props: { projects, technologies }
